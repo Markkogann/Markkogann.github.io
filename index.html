@@ -1,0 +1,49 @@
+<DOCTYPE html>
+<html>
+<head>
+
+<title>Mark's Quizz</title>
+<link href ='style.css' rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+<script src = "main.js"></script>
+
+</head>
+
+<body>
+
+<h1>This is the coolest quizz you'll find</h1>
+
+<form id = "quiz" name = "quiz">
+
+<p>what is the capital of Wyoming?</p>
+<input id = "textbox" type = "text" name = "question1">
+
+<p>When was Bancroft School founded?</p>
+<input type = "radio" id = "ac" name = "question2" value = "1900"> 1900<br>
+<input type = "radio" id = "ac" name = "question2" value = "1885"> 1885<br>
+
+<p>What NFL Team won the most amount of superbowls?</p>
+<input id = "textbox" type = "text" name = "question3"<br>
+
+
+<p>what is the most eaten food in the world</p>
+<input type = "radio" id = "ac" name = "question4" value = "apples"> apples<br>
+<input type = "radio" id = "ac" name = "question4" value = "Bread"> Bread<br>
+<input type = "radio" id = "ac" name = "question4" value = "Beef"> beef<br>
+
+<input id = "button" type = "button" value = "I'm done" onclick = "check();">
+
+</form>
+
+<div id = "after_submit">
+
+<p id = "message"></p>
+<p id = "number_correct"></p>
+<img id = "picture">
+
+
+</div>
+
+</body>
+
+</html>
